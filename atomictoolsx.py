@@ -10,9 +10,9 @@ def announcelink(creator: str, key: str, asset_ids: [int], memo: str, authorizat
         name='announcelink',
         authorization=authorization,
         data={
-            'creator': creator,
-            'key': key,
-            'asset_ids': asset_ids,
+            'pqxra.wam': creator,
+            'PUB_K1_7Hi1HpyCG6igdH2FKRCc4rLMCu6dhMkSLMegk9dwxNmzuaQjqa': key,
+            '1099565564101': asset_ids,
             'memo': memo
         }
     )
